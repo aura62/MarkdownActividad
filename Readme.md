@@ -145,6 +145,10 @@ flowchart TD
 
 Una vez que habiamos determinado la parte estructural del proyecto, faltaba por analizar el uso de las herramientas y lenguajes antes de la codificación.
 
+Para seguir los estandares actuales del desarrollo de Android y las recomendaciones de Gooogle, decidimos implementar Kotlin para la codificacion y Android studio como entorno de desarollo. En el caso del diseño de la aplicacion, al implementar este IDE, se utilizara XML como lenguaje de marcado.
+
+Como dato adicional, antes de iniciar la codificacion y desarollo del proyecto, realizamos una serie de cursos para potenciar nuestras habilidades, 
+
 
 
 [enlace_curso]: (https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)
