@@ -8,44 +8,91 @@ Este proyecto fue desarrollado para el curso de [_Desarrollo de aplicaciones mul
 </pre>
 
 ### Autor
+
 Aura
 
 ### Tutor
 
 Rufino
 
-***
+---
 
->Enfocabita es una aplicación de **productividad** que combina el seguimiento de **habitos** diarios con un temporizador pomodoro, para optimizar la gestión del tiempo :watch:.
-***
+> Enfocabita es una aplicación de **productividad** que combina el seguimiento de **habitos** diarios con un temporizador pomodoro, para optimizar la gestión del tiempo :watch:.
+
+---
 
 Nuestros principales _**objetivos**_ al desarrollar esta aplicación son:
 
-* Permitir crear y clasificar los habitos en tres _categorias_: Habitos que se desean mantener, adquirir y abandonar.
-* Visualizar el _progreso_ a traves de un calendario.
-* Que el usuario pueda consultar su _racha_ de habitos cumplidos.
-* _Recordatorios_ para realizar los habitos.
-* Gestionar sesiones de trabajo enfocadas, con la ayuda de un temporizador _Pomodoro_.
-  
-***
+- Permitir crear y clasificar los habitos en tres _categorias_: Habitos que se desean mantener, adquirir y abandonar.
+- Visualizar el _progreso_ a traves de un calendario.
+- Que el usuario pueda consultar su _racha_ de habitos cumplidos.
+- _Recordatorios_ para realizar los habitos.
+- Gestionar sesiones de trabajo enfocadas, con la ayuda de un temporizador _Pomodoro_.
+
+---
 
     Antes de iniciar el desarrollo del proyecto, realizamos estudios para determinar el diseño y estructura que tendria la aplicación, no solo en su comportamiento, si no el funcionamiento general al estar en ejecución.
 
 Las actividades que realizamos para completar el desarrollo fueron las siguientes:
 
 1. Determinar los recursos y herramientas a utilizar:
-    - Elegir recursos software y hardware para crear la aplicación como:
 
-    	![Android Studio](https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white)![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+   - Elegir recursos software y hardware para crear la aplicación como:
 
-    - Analizar que lenguajes se ajustaban adecuadamente a los requisitos del proyecto. Al ser pensada como una aplicación android, se decidio implementar:
+     ![Android Studio](https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-        ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![XML](https://img.shields.io/badge/XML-ffffff?style=for-the-badge&color=1bb11d)
+   - Analizar que lenguajes se ajustaban adecuadamente a los requisitos del proyecto. Al ser pensada como una aplicación android, se decidio implementar:
 
-    - Diseño de la arquitectura y modelo de datos:
+     ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![XML](https://img.shields.io/badge/XML-ffffff?style=for-the-badge&color=1bb11d)
+
+2. Diseñar diagramas de estructura, flujo e información:
     
+   - Diagrama de clases
 
 
+```Mermaid
+
+erDiagram
+    USUARIO {
+        int idUsuario
+        string nombre
+        string correo
+        string password
+        registrar()
+        iniciarSesion()
+    }
+    HABITO {
+        int idHabito
+        string nombre
+        string categoria
+        string frecuencia
+        crearHabito()
+        editarHabito()
+        eliminarHabito()
+        vacio
+    }
+    SesionPomodoro {
+        int idSesion
+        int idDuracion
+        string estado
+        date fecha
+        iniciarSesion()
+        finalizarSesion()
+    }
+    CALENDARIO {
+        Date fecha
+        list habitosAociados
+        string estado
+        visualizarHabitos()
+        vacio
+    }
+    USUARIO ||--o{ HABITO : "tiene"
+    USUARIO ||--o{ SesionPomodoro : "asociado"
+    CALENDARIO }o--o{ HABITO : "puede tener"
+    SesionPomodoro }o--o{ CALENDARIO : "registra"
+
+```
+   - 
 
 
-[enlace_curso]:(https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)
+[enlace_curso]: (https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)
