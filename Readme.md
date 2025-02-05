@@ -7,15 +7,16 @@ Este proyecto fue desarrollado para el curso de [_Desarrollo de aplicaciones mul
 <pre><img src="https://cpilosenlaces.com/wp-content/uploads/2023/03/cpifp-los-enlaces-2x.png" width="200" height="" alt="logo de cpifp los enlaces"> 
 </pre>
 
-### Autor
+### <center>Autor</center>
 
-Aura
+<center>Aura</center>
 
-### Tutor
+### <center>Tutor</center>
 
-Rufino
+<center>Rufino</center>
 
 ---
+
 
 > Enfocabita es una aplicación de **productividad** que combina el seguimiento de **habitos** diarios con un temporizador pomodoro, para optimizar la gestión del tiempo :watch:.
 
@@ -33,6 +34,8 @@ Nuestros principales _**objetivos**_ al desarrollar esta aplicación son:
 
     Antes de iniciar el desarrollo del proyecto, realizamos estudios para determinar el diseño y estructura que tendria la aplicación, no solo en su comportamiento, si no el funcionamiento general al estar en ejecución.
 
+---
+
 Las actividades que realizamos para completar el desarrollo fueron las siguientes:
 
 1. Determinar los recursos y herramientas a utilizar:
@@ -47,7 +50,7 @@ Las actividades que realizamos para completar el desarrollo fueron las siguiente
 
 2. Diseñar diagramas de estructura, flujo e información:
     
-   - Diagrama de clases
+   - <u>Diagrama de clases</u>
 
 
 ```Mermaid
@@ -92,7 +95,56 @@ erDiagram
     SesionPomodoro }o--o{ CALENDARIO : "registra"
 
 ```
-   - 
+
+-   <u>Diagrama de caso de usos</u>
+
+```Mermaid
+
+sequenceDiagram
+
+    actor User as Usuario
+    participant FE as Frontend
+    participant BE as Backend
+    participant DB as Base de Datos
+
+    User ->> FE: Abre la aplicación
+    FE ->> User: muestra pantalla de inicio
+    User ->> FE: solicitud para registrar un hábito
+    FE ->> BE: Envia los datos del nuevo hábito registrado
+    BE ->> DB: Guarda los datos en la BBDD
+    DB -->> BE: Confirma el registro de los nuevos datos
+    BE -->> FE: Respuesta de gurdado completo o error
+    FE -->> User: Mensaje de confirmación
+
+```
+
+-   <u>Diagrama de flujo</u>
+
+```Mermaid
+
+flowchart TD
+
+    A[Inicio] --> B{Escribe tu contraseña}
+    B --> C((pass))
+    C --> D{¿Contraseña correcta?}
+    D -- Sí --> E[Login correcto]
+    D -- No --> F[Intentar de nuevo]
+    F --> B
+    E --> I[Solicitar duración de sesión]
+    I --> S{Confirmar Inicio}
+    S -->|Tiempo terminado| N[Notificar fin de sesión]
+    S -->|Tiempo restante| Ejecucion[Ejecución de temporizador]
+    N --> R[Registrar sesión]
+    R --> Fn([Fin])
+    S -- No --> Fn
+
+
+```
+
+3. Analisis y diseño del sistema:
+
+Una vez que habiamos determinado la parte estructural del proyecto, faltaba por analizar el uso de las herramientas y lenguajes antes de la codificación.
+
 
 
 [enlace_curso]: (https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)
