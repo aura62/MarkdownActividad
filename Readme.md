@@ -153,10 +153,14 @@ Como dato adicional, antes de iniciar la codificacion y desarollo del proyecto, 
 
 [![web](https://camo.githubusercontent.com/5c4776adb8c2fb72d3eaac82a756b87b76675628ea957be3d0ba99daae4b01b8/68747470733a2f2f692e696d6775722e636f6d2f6e4444703152612e6a7067)](https://www.youtube.com/watch?v=k9NndvHyUvw&list=PLU8oAlHdN5BkdfBPpNv_lVCJxJgE87cr0)
 
-  - _[Curso de SQL de PildorasInformaticas](https://www.pildorasinformaticas.es/course/curso-sql/)_
+  - _Curso de SQL_ 
   
-  - [_Curso de Android Studio Intermedio_][enlace_curso_android_studio]
+  [![web](https://i.ytimg.com/vi/iOiyJgnN71c/maxresdefault.jpg)](https://youtu.be/iOiyJgnN71c?si=gdOhKCum6NWUNumL)
   
+  - Curso de Android Studio Intermedio
+  
+  [![web](https://i.ytimg.com/vi/UaR7GSNACsM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBeYfOshhHdRr4QnI7NdwRnG75KAQ)](https://youtu.be/UaR7GSNACsM?si=JqTDlp27vAEANosW)
+
   - [_Curso de Room y Retrofit_][enlace_curso_room]
   
 
@@ -223,14 +227,10 @@ percibir errores concretos como:
 
 Finalmente una vez ya solucionados los errores y depurada la aplicacion, solo quedaba su lanzamiento, a continuacion se mostrara muestra de la aplicación.
 
-<video src="image/Habit Tracker App (Community) - Page 1 - Figma 2025-02-06 16-50-31.mp4" autoplay>
+<pre><video src="image/Habit Tracker App (Community) - Page 1 - Figma 2025-02-06 16-50-31.mp4" autoplay>
   Tu navegador no admite el elemento <code>video</code>.
-</video>
-
-
-
-[enlace_curso_android_studio]: [https://youtu.be/UaR7GSNACsM?si=APX4TGHfb0qKQMJV]
-
-[enlace_curso_room]: [https://www.youtube.com/watch?v=pMqHcrU5w80&list=PL_z8ReaP-3kSZDH645gZtONyyyXfM0gQp]
+</video></pre>
 
 [enlace_curso]: (https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)
+
+[enlace_curso_room]: (https://developer.android.com/training/data-storage/room?hl=es-419)
