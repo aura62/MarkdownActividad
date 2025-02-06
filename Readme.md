@@ -209,7 +209,21 @@ Por supuesto, antes de irnos de lleno con el proyecto, habia que tomar en cuenta
    commit id: "Actualizacion de funcionalidades"
 
 6. Pruebas
+
+Cuando ya teniamos listo una version funcional de navegacion, inicio el periodo de pruebas, donde se testeaba con un movil para poder
+percibir errores concretos como:
+
+    1. Error de inicio de sesión.
+    2. Incorrecto registro de un nuevo habito.
+    3. Excepciones en el uso de room y retrofit.
+    4. Errores de conexion al intentar conectar con la API.
+    5. Fallos de implementacion del temporizador.
+
 7. Lanzamiento
+
+Finalmente una vez ya solucionados los errores y depurada la aplicacion, solo quedaba su lanzamiento, a continuacion se mostrara muestra de la aplicacion.
+
+<video>image/Habit Tracker App (Community) - Page 1 - Figma 2025-02-06 16-50-31.mp4</video>
 
 
 
