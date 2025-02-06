@@ -161,7 +161,7 @@ Como dato adicional, antes de iniciar la codificacion y desarollo del proyecto, 
   
   [![web](https://i.ytimg.com/vi/UaR7GSNACsM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBeYfOshhHdRr4QnI7NdwRnG75KAQ)](https://youtu.be/UaR7GSNACsM?si=JqTDlp27vAEANosW)
 
-  - [_Curso de Room y Retrofit_][enlace_curso_room]
+  - _[Curso de Room y Retrofit](https://developer.android.com/training/data-storage/room?hl=es-419)_
   
 
 4. Analisis de riesgo:
@@ -211,6 +211,10 @@ Por supuesto, antes de irnos de lleno con el proyecto, habia que tomar en cuenta
    checkout main
    merge hotfix/patch tag: "Versión 1.0.1"
    commit id: "Actualizacion de funcionalidades"
+   branch release/v1.1
+   commit id: "Configuración para lanzamiento v1.1"
+   checkout main
+   merge release/v1.1 tag: "Lanzamiento de versión 1.1"
 
 6. Pruebas
 
@@ -227,10 +231,9 @@ percibir errores concretos como:
 
 Finalmente una vez ya solucionados los errores y depurada la aplicacion, solo quedaba su lanzamiento, a continuacion se mostrara muestra de la aplicación.
 
-<pre><video src="image/Habit Tracker App (Community) - Page 1 - Figma 2025-02-06 16-50-31.mp4" autoplay>
+<video width="640" height="360" controls autoplay>
+  <source src="image/Habit Tracker App (Community) - Page 1 - Figma 2025-02-06 16-50-31.mp4" type="video/mp4">
   Tu navegador no admite el elemento <code>video</code>.
-</video></pre>
+</video>
 
-[enlace_curso]: (https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)
-
-[enlace_curso_room]: (https://developer.android.com/training/data-storage/room?hl=es-419)
+[enlace_curso]: https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html
