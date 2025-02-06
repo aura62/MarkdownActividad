@@ -155,9 +155,9 @@ Como dato adicional, antes de iniciar la codificacion y desarollo del proyecto, 
 
   - _[Curso de SQL de PildorasInformaticas](https://www.pildorasinformaticas.es/course/curso-sql/)_
   
-  - _[Curso de Android Studio Intermedio][enlace_curso_android_studio]_
+  - [_Curso de Android Studio Intermedio_][enlace_curso_android_studio]
   
-  - _[Curso de Room y Retrofit][enlace_curso_room]_
+  - [_Curso de Room y Retrofit_][enlace_curso_room]
   
 
 4. Analisis de riesgo:
@@ -221,9 +221,11 @@ percibir errores concretos como:
 
 7. Lanzamiento
 
-Finalmente una vez ya solucionados los errores y depurada la aplicacion, solo quedaba su lanzamiento, a continuacion se mostrara muestra de la aplicacion.
+Finalmente una vez ya solucionados los errores y depurada la aplicacion, solo quedaba su lanzamiento, a continuacion se mostrara muestra de la aplicación.
 
-<video>image/Habit Tracker App (Community) - Page 1 - Figma 2025-02-06 16-50-31.mp4</video>
+<video src="image/Habit Tracker App (Community) - Page 1 - Figma 2025-02-06 16-50-31.mp4" autoplay>
+  Tu navegador no admite el elemento <code>video</code>.
+</video>
 
 
 
