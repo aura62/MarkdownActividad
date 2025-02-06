@@ -143,12 +143,25 @@ flowchart TD
 
 3. Analisis y diseño del sistema:
 
-Una vez que habiamos determinado la parte estructural del proyecto, faltaba por analizar el uso de las herramientas y lenguajes antes de la codificación.
+Una vez que determinamos la parte estructural del proyecto, faltaba por analizar el uso de las herramientas y lenguajes antes de la codificación.
 
-Para seguir los estandares actuales del desarrollo de Android y las recomendaciones de Gooogle, decidimos implementar Kotlin para la codificacion y Android studio como entorno de desarollo. En el caso del diseño de la aplicacion, al implementar este IDE, se utilizara XML como lenguaje de marcado.
+Para seguir los estandares actuales del desarrollo de Android y las recomendaciones de Gooogle, decidimos implementar Kotlin para la codificacion y Android studio como entorno de desarollo. En el caso del diseño de la aplicación, al implementar este IDE se utilizara XML como lenguaje de marcado.
 
-Como dato adicional, antes de iniciar la codificacion y desarollo del proyecto, realizamos una serie de cursos para potenciar nuestras habilidades, 
+Como dato adicional, antes de iniciar la codificacion y desarollo del proyecto, realizamos una serie de cursos para potenciar nuestras habilidades. Los recursos a los que acudimos fueron los siguientes:
+
+   - _Curso de kotlin_  
+
+[![web](https://camo.githubusercontent.com/5c4776adb8c2fb72d3eaac82a756b87b76675628ea957be3d0ba99daae4b01b8/68747470733a2f2f692e696d6775722e636f6d2f6e4444703152612e6a7067)]([enlace_curso_kotlin])
+
+  - _[Curso de SQL de PildorasInformaticas](https://www.pildorasinformaticas.es/course/curso-sql/)_
+  
+  - _[Curso de Android Studio Intermedio][enlace_curso_android_studio]_
 
 
 
+
+
+
+[enlace_curso_android_studio]: [https://youtu.be/UaR7GSNACsM?si=APX4TGHfb0qKQMJV]
+[enlace_curso_kotlin]: [https://www.youtube.com/watch?v=k9NndvHyUvw&list=PLU8oAlHdN5BkdfBPpNv_lVCJxJgE87cr0]
 [enlace_curso]: (https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)
