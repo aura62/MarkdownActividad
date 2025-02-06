@@ -151,17 +151,70 @@ Como dato adicional, antes de iniciar la codificacion y desarollo del proyecto, 
 
    - _Curso de kotlin_  
 
-[![web](https://camo.githubusercontent.com/5c4776adb8c2fb72d3eaac82a756b87b76675628ea957be3d0ba99daae4b01b8/68747470733a2f2f692e696d6775722e636f6d2f6e4444703152612e6a7067)]([enlace_curso_kotlin])
+[![web](https://camo.githubusercontent.com/5c4776adb8c2fb72d3eaac82a756b87b76675628ea957be3d0ba99daae4b01b8/68747470733a2f2f692e696d6775722e636f6d2f6e4444703152612e6a7067)](https://www.youtube.com/watch?v=k9NndvHyUvw&list=PLU8oAlHdN5BkdfBPpNv_lVCJxJgE87cr0)
 
   - _[Curso de SQL de PildorasInformaticas](https://www.pildorasinformaticas.es/course/curso-sql/)_
   
   - _[Curso de Android Studio Intermedio][enlace_curso_android_studio]_
+  
+  - _[Curso de Room y Retrofit][enlace_curso_room]_
+  
 
+4. Analisis de riesgo:
 
+Por supuesto, antes de irnos de lleno con el proyecto, habia que tomar en cuenta las fortalezas y debilidades que llegaria a tener, es debido a esto que realizamos un analisis DAFO.
 
+| **Fortalezas** | **Oportunidades** |
+| -------------- | ----------------- |
+| - Desarrollo multiplataforma. | - Alta demanda de aplicaciones de productividad. |
+| - Diseño intuitivo, minimalista y simple. | - Integración con tecnologías emergentes. |
+| - Personalización del temporizador. | - Potencial para añadir funciones premium. |
+
+| **Debilidades** | **Amenazas** |
+| --------------- | ------------ |
+| - Limitado presupuesto y recursos. | - Alta competencia en el mercado. |
+| - Dependencia de ciertas tecnologías. | - Riesgos de fallas técnicas. |
+| - Poco tiempo de desarrollo. | - Posible rechazo de usuarios conservadores. |
+
+5. Implementación:
+   
+   Este fue el momento donde tocaba empezar a codificar la aplicación e ir adjuntando las clases y metodos a implementar. Para llevar un control mas claro, creamos un diagrama de git y de esa forma ir siguiendo un camino claro.
+
+    ```Mermaid
+
+   gitGraph
+   commit id: "Configuracion inicial"
+   branch develop
+   commit id: "Primer commit en develop"
+   branch feature/login
+   commit id: "Implementación inical del login"
+   commit id: "Validación de credenciales"
+   checkout develop
+   commit id: "Corrección de errores en los metodos"
+   merge feature/login tag: "Merge de login"
+   branch feature/UI
+   commit id: "Mejora en el diseño de la interfaz"
+   checkout develop
+   commit id: "Actualización de dependencias"
+   merge feature/UI
+   branch release/v1.0
+   commit id: "Configuración para lanzamiento v1.0"
+   checkout main
+   merge release/v1.0 tag: "Lanzamiento versión 1.0"
+   commit id: "Hotfix: parche para correcion de errores"
+   branch hotfix/patch
+   commit id: "Correcciones de vulnerabilidades encontradas"
+   checkout main
+   merge hotfix/patch tag: "Versión 1.0.1"
+   commit id: "Actualizacion de funcionalidades"
+
+6. Pruebas
+7. Lanzamiento
 
 
 
 [enlace_curso_android_studio]: [https://youtu.be/UaR7GSNACsM?si=APX4TGHfb0qKQMJV]
-[enlace_curso_kotlin]: [https://www.youtube.com/watch?v=k9NndvHyUvw&list=PLU8oAlHdN5BkdfBPpNv_lVCJxJgE87cr0]
+
+[enlace_curso_room]: [https://www.youtube.com/watch?v=pMqHcrU5w80&list=PL_z8ReaP-3kSZDH645gZtONyyyXfM0gQp]
+
 [enlace_curso]: (https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html)
