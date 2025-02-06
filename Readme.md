@@ -32,7 +32,7 @@ Nuestros principales _**objetivos**_ al desarrollar esta aplicación son:
 
 ---
 
-    Antes de iniciar el desarrollo del proyecto, realizamos estudios para determinar el diseño y estructura que tendria la aplicación, no solo en su comportamiento, si no el funcionamiento general al estar en ejecución.
+    Antes de iniciar el desarrollo del proyecto, realizamos estudios para determinar el diseño y estructura que tendria la aplicación, no solo en su comportamiento, tambien en el funcionamiento general al estar en ejecución.
 
 ---
 
@@ -182,7 +182,7 @@ Por supuesto, antes de irnos de lleno con el proyecto, habia que tomar en cuenta
 
 5. Implementación:
    
-   Este fue el momento donde tocaba empezar a codificar la aplicación e ir adjuntando las clases y metodos a implementar. Para llevar un control mas claro, creamos un diagrama de git y de esa forma ir siguiendo un camino claro.
+   Este era el momento donde tocaba empezar a codificar la aplicación e ir adjuntando las clases y metodos a implementar. Para llevar un control mas claro, creamos un diagrama de git y de esa forma ir siguiendo un camino claro.
 
     ```Mermaid
 
@@ -229,11 +229,11 @@ percibir errores concretos como:
 
 7. Lanzamiento
 
-Finalmente una vez ya solucionados los errores y depurada la aplicacion, solo quedaba su lanzamiento, a continuacion se mostrara muestra de la aplicación.
+Finalmente una vez ya solucionamos los errores y depuramos la aplicación, solo nos quedaba su lanzamiento, a continuación se mostrara una demo de esta.
 
-<video width="640" height="360" controls autoplay>
+<pre><video width="640" height="360" controls autoplay>
   <source src="image/Habit Tracker App (Community) - Page 1 - Figma 2025-02-06 16-50-31.mp4" type="video/mp4">
   Tu navegador no admite el elemento <code>video</code>.
-</video>
+</video></pre>
 
 [enlace_curso]: https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html
